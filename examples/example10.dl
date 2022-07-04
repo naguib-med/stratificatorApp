@@ -1,0 +1,3 @@
+Souspiece (x,Y) :- Piece (x,y).
+Souspiece (x,Y) :- Souspiece (x,Z), Souspiece (x,T).
+Compose (x,Y) :- Souspiece (x,Y), not Souspiece (x,Z).

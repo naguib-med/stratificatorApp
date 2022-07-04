@@ -1,0 +1,6 @@
+person(x) :- Knows(x, y).
+Person(y) :- Knows(x, y).
+Person(x) :- Owns(x, y).
+Unhappy(x) :- Person(x), not Happy(x).
+Happy(x) :- Owns(x, iPad).
+Happy(x) :- Knows(x, y), Happy(y).

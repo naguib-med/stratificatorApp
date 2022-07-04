@@ -1,0 +1,10 @@
+# EDB
+Personne(id, nom, age, sex).
+Femme(x).
+Homme(x).
+Parent(x,y).
+
+#IDB
+Pere(x,y) :- Homme(x), Parent(x,y).
+Mere(x,y) :- Femme(x), Parent(x,y).
+Something(z) :- not Femme(c).

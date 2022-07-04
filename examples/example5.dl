@@ -1,0 +1,5 @@
+Q(x,z) :- T(z,y,v), T(x,y,a), not R(x, y).
+R(x, y) :- R(y,x), T(b,v,x).
+T(x, y, u) :- R(x,u), T(x,y,c).
+S(x, z) :- R(z, b), not T(b, v, x).
+P(y, x) :- P(a, x), not S(x, y), Q(x, y).

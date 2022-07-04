@@ -1,0 +1,4 @@
+# IDB
+MadCity ( to ) :− Flights ( _ , "Madison" , to , _ , _ , _ ).
+MadCity ( to ) :− MadCity ( from ) , Flights ( _ , from , to , _ , _ , _ ).
+Ans ( fino ) :− Flights ( fino , from , to , _ , _ , _ ) , not MadCity ( from ) , not Flights ( fino , "Madison" , to , _ ,_ , _ ).

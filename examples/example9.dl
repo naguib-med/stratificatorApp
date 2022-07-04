@@ -1,0 +1,11 @@
+C(1,blue). C(2,red). C(3,red). C(4,red).
+E(1,2). E(2,3). E(3,4). E(4,1).
+
+V(X) :- E(X,Y).
+V(Y) :- E(X,Y).
+WCP(X,Y,R) :- E(X,Y), C(X,R).
+WCP(X,Y,R) :- WCP(X,Z,S), E(Z,Y), C(Z,R), R != S.
+WCP(X,Y,R) :- WCP(X,Z,S), E(Z,Y), C(Z,R), C(Y,T), R != T.
+ExistsWCP(X,Y) :- WCP(X,Y,R).
+ExistsWCP(X,X) :- V(X).
+Answer(X,Y) :- V(X), V(Y), not ExistsWCP(X,Y).

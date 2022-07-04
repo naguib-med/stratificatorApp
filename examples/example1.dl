@@ -1,0 +1,17 @@
+# EDB
+F(1,2).
+F(2,3).
+F(3,1).
+C(1,2).
+C(1,"R").
+C(2,"B").
+C(3,"J").
+
+
+#IDB
+S(X) :- P(X,X), not R(X,X).
+R(X,Y) :- P(X,Y), C(X,'R').
+R(X,Y) :- P(X,Y), C(Y,'R').
+P(X,Y) :- P(X,Y).
+P(X,Z) :- P(X,Y), F(Y,Z).
+A(X) :- P(X,X), not S(X).
