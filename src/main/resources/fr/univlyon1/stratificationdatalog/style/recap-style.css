@@ -1,0 +1,15 @@
+.myButton {
+    -fx-background-color: #07AC9F;
+    /*-fx-background-insets: 0,1,2;*/
+    -fx-background-radius: 0;
+    /*-fx-padding: 3 30 3 30;*/
+    -fx-text-fill: white;
+    /*-fx-font-size: 14px;*/
+    -fx-pref-height: 35;
+}
+
+.blocIlot {
+    -fx-padding: 15px;
+    -fx-border-insets: 30px 15px 30px 15px;
+    -fx-background-insets: 15px;
+}

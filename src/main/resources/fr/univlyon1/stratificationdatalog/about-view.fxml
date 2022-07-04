@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane prefHeight="698.0" prefWidth="467.0" style="-fx-background-color: white;" stylesheets="@style/accueil-style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.univlyon1.stratificationdatalog.controller.AboutController">
+   <children>
+      <Button fx:id="btnClose" layoutX="420.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleClose" styleClass="closeBtn">
+         <graphic>
+            <FontIcon iconColor="#da2929" iconLiteral="fa-plus" iconSize="20" rotate="45.0" />
+         </graphic>
+      </Button>
+      <ImageView fitHeight="100.0" fitWidth="123.0" layoutX="172.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/logo-name.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="57.0" layoutY="177.0" text="Generalites" textFill="#d50d59">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="303.0" text="Comment utiliser le logiciel ?" textFill="#d50d59">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="422.0" text="Comment marche l'algorithme ?" textFill="#d50d59">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="586.0" text="Nous contacter" textFill="#d50d59">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="202.0" prefHeight="82.0" prefWidth="378.0" text="Voyez ce jeu exquis wallon, de graphie en kit mais bref. &#10;Portez ce vieux whisky au juge blond qui fume sur son &#10;île intérieure, à côté de l&quot;alcôve ovoïde, où les bûches &#10;se consument dans l&quot;âtre, ce qui lui permet de&#10;penser à la cænogenèse de l&quot;être dont il est&#10; question dans la cause ambiguë entendue&#10; à Moÿ, dans un capharnaüm qui, pense-t-il,&#10; diminue çà et là la qualité de son œuvre. &#10;Voyez ce jeu exquis wallon, de graphie en&#10; kit mais bref. Portez ce vieux whisky au juge&#10; blond qui fume sur son île intérieure, à côté&#10; de l&quot;alcôve ovoïde, où les bûches se&#10; consument dans l&quot;âtre, ce qui lui permet de&#10; penser à la cænogenèse de l&quot;être dont il est&#10; question dans la cause ambiguë entendue&#10; à Moÿ, dans un capharnaüm qui, pense-t-il,&#10; diminue çà et là la qualité de son œuvre. ">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="328.0" prefHeight="69.0" prefWidth="378.0" text="Voyez ce jeu exquis wallon, de graphie en&#10;kit mais bref. Portez ce vieux whisky au juge blond qui &#10;fume sur son île intérieure, à côté de l&quot;alcôve ovoïde, &#10;où les bûches se&#10; consument dans l&quot;âtre, ce qui lui permet de&#10; penser à la cænogenèse de l&quot;être dont il est&#10; question dans la cause ambiguë entendue&#10; à Moÿ, dans un capharnaüm qui, pense-t-il,&#10; diminue çà et là la qualité de son œuvre. &#10;Voyez ce jeu exquis wallon, de graphie en&#10; kit mais bref. Portez ce vieux whisky au juge&#10; blond qui fume sur son île intérieure, à côté&#10; de l&quot;alcôve ovoïde, où les bûches se&#10; consument dans l&quot;âtre, ce qui lui permet de&#10; penser à la cænogenèse de l&quot;être dont il est&#10; question dans la cause ambiguë entendue&#10; à Moÿ, dans un capharnaüm qui, pense-t-il,&#10; diminue çà et là la qualité de son œuvre. ">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="446.0" prefHeight="120.0" prefWidth="378.0" text="Voyez ce jeu exquis wallon, de graphie en&#10;kit mais bref. Portez ce vieux whisky au juge blond qui &#10;fume sur son île intérieure, à côté de l&quot;alcôve ovoïde, &#10;où les bûches se consument dans l&quot;âtre, ce qui lui permet de&#10;penser à la cænogenèse de l&quot;être dont il est&#10;question dans la cause ambiguë entendue&#10;à Moÿ, dans un capharnaüm qui, pense-t-il,&#10; diminue çà et là la qualité de son œuvre. &#10;Voyez ce jeu exquis wallon, de graphie en&#10; kit mais bref. Portez ce vieux whisky au juge&#10; blond qui fume sur son île intérieure, à côté&#10; de l&quot;alcôve ovoïde, où les bûches se&#10; consument dans l&quot;âtre, ce qui lui permet de&#10; penser à la cænogenèse de l&quot;être dont il est&#10; question dans la cause ambiguë entendue&#10; à Moÿ, dans un capharnaüm qui, pense-t-il,&#10; diminue çà et là la qualité de son œuvre. ">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="613.0" prefHeight="36.0" prefWidth="378.0" text="Voyez ce jeu exquis wallon, de graphie en&#10;kit mais bref. Portez ce vieux whisky au juge&#10; blond qui fume sur son île intérieure, à côté&#10; de l&quot;alcôve ovoïde, où les bûches se&#10; consument dans l&quot;âtre, ce qui lui permet de&#10; penser à la cænogenèse de l&quot;être dont il est&#10; question dans la cause ambiguë entendue&#10; à Moÿ, dans un capharnaüm qui, pense-t-il,&#10; diminue çà et là la qualité de son œuvre. &#10;Voyez ce jeu exquis wallon, de graphie en&#10; kit mais bref. Portez ce vieux whisky au juge&#10; blond qui fume sur son île intérieure, à côté&#10; de l&quot;alcôve ovoïde, où les bûches se&#10; consument dans l&quot;âtre, ce qui lui permet de&#10; penser à la cænogenèse de l&quot;être dont il est&#10; question dans la cause ambiguë entendue&#10; à Moÿ, dans un capharnaüm qui, pense-t-il,&#10; diminue çà et là la qualité de son œuvre. ">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
